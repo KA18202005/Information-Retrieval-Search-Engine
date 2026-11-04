@@ -1,0 +1,6 @@
+Title: Distributed Consensus and Raft Protocol
+Author: Diego Ongaro
+Category: Systems
+Date: 2024-04-10
+
+Distributed consensus ensures that multiple independent server nodes agree on a shared state machine log despite network partitions and node failures. The Raft consensus algorithm decomposes consensus into leader election, log replication, and safety guarantees. Compared to Paxos, Raft provides an intuitive state transition model. High-throughput distributed storage engines like etcd and CockroachDB rely on Raft for linearizable read-write transactions and metadata replication.

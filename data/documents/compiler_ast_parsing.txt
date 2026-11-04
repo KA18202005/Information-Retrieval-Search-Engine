@@ -1,0 +1,6 @@
+Title: Compilers: Lexical Analysis and AST Generation
+Author: Alfred Aho
+Category: Compilers
+Date: 2024-04-25
+
+Compilers transform high-level source code into executable machine instructions. The front-end consists of a lexical analyzer (lexer or tokenizer) that converts character streams into tokens, and a parser that constructs an Abstract Syntax Tree (AST) following context-free grammar rules. Common parsing algorithms include LL(k) recursive descent and LR/LALR bottom-up shift-reduce parsing. Optimization passes transform intermediate representations (IR) before code generation.

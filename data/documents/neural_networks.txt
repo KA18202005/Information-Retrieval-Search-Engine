@@ -1,0 +1,6 @@
+Title: Deep Neural Networks and Gradient Optimization
+Author: Yann LeCun
+Category: AI & Deep Learning
+Date: 2024-04-02
+
+Deep neural networks utilize stacked layers of artificial neurons to learn hierarchical representations from raw input data. Backpropagation computes gradients of the loss function with respect to model weights using the calculus chain rule. Optimizers like Adam, RMSprop, and stochastic gradient descent update parameters iteratively. Convolutional networks excel in computer vision tasks, while Transformer architectures relying on self-attention mechanisms dominate modern natural language processing and linguistic understanding.

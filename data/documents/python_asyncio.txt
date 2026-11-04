@@ -1,0 +1,6 @@
+Title: Asynchronous Programming in Python with Asyncio
+Author: Yury Selivanov
+Category: Python
+Date: 2024-05-02
+
+Python asyncio provides single-threaded concurrent code execution using coroutines, multiplexing I/O over an event loop. Using async and await syntax, non-blocking network requests, database queries, and background tasks can be managed cooperatively without the overhead of heavy operating system threads. Libraries like aiohttp, FastAPI, and uvloop deliver high-throughput web APIs and microservices.

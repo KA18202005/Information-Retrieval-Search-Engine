@@ -1,0 +1,6 @@
+Title: Vector Space Model and Cosine Similarity
+Author: Gerard Salton
+Category: Ranking & Relevance
+Date: 2024-03-01
+
+The Vector Space Model represents both documents and search queries as multi-dimensional vectors in a Euclidean term space. Term weights are computed using Term Frequency-Inverse Document Frequency (TF-IDF), balancing local term frequency against global rarity. The relevance score between a query vector and document vector is calculated using the Cosine Similarity metric, which measures the cosine of the angle between them. This approach naturally produces continuous relevance scores and supports partial matching for free-text search.

@@ -1,0 +1,6 @@
+Title: Database Indexing with B-Trees and LSM-Trees
+Author: Rudolf Bayer
+Category: Databases
+Date: 2024-04-18
+
+Database storage engines rely on specialized tree indexing structures for rapid record retrieval. B+ Trees maintain balanced multi-way search trees optimized for disk block reads and sequential range queries. In write-heavy workloads, Log-Structured Merge (LSM) trees buffer incoming writes in memory (MemTable) and sequentially flush them to immutable SSTables on disk, utilizing periodic background compaction to maintain query performance and minimize write amplification.

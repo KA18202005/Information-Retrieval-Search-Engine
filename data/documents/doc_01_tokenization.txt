@@ -1,0 +1,6 @@
+Title: Tokenization and Text Normalization
+Author: Christopher Manning
+Category: NLP & Preprocessing
+Date: 2024-01-15
+
+Tokenization is the process of breaking down a stream of text into words, phrases, symbols, or other meaningful elements called tokens. In modern information retrieval and natural language processing pipelines, tokenization is the fundamental preliminary step. It involves converting raw character streams into standardized terms, stripping unwanted punctuation, performing lowercase case-folding, and discarding high-frequency non-informative grammatical particles known as stop words. Advanced tokenizers also handle hyphenated compound words, contraction expansion, and Unicode normalization.

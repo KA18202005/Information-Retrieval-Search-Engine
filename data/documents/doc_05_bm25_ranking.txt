@@ -1,0 +1,6 @@
+Title: Okapi BM25 Probabilistic Relevance Model
+Author: Stephen Robertson
+Category: Ranking & Relevance
+Date: 2024-02-20
+
+Okapi BM25 is a state-of-the-art probabilistic ranking function widely used in information retrieval. Unlike pure boolean retrieval which produces binary match sets, BM25 scores each document according to query term relevance. BM25 incorporates term frequency (TF) with non-linear saturation controlled by parameter k1, document length normalization controlled by parameter b against average document length (avgdl), and Inverse Document Frequency (IDF). The formula ensures that rare discriminating terms contribute high weights while preventing excessively long documents from unfairly dominating results.

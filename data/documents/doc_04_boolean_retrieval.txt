@@ -1,0 +1,6 @@
+Title: Boolean Retrieval and Query AST Evaluation
+Author: Edsger Dijkstra
+Category: Query Models
+Date: 2024-02-12
+
+Boolean retrieval evaluates search expressions using classical Boolean logic operators: AND (conjunction), OR (disjunction), NOT (negation), and XOR (exclusive or). A query string is tokenized into lexical tokens and converted from infix notation to postfix Reverse Polish Notation (RPN) using Dijkstra's Shunting-yard algorithm. The search engine evaluates the Abstract Syntax Tree (AST) by executing set intersections, unions, and set differences across the inverted postings lists. Exact phrase queries are verified by checking adjacent positional offsets in matching documents.

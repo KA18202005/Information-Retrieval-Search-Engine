@@ -1,0 +1,6 @@
+Title: Information Retrieval Evaluation Metrics
+Author: Cyril Cleverdon
+Category: Evaluation
+Date: 2024-03-18
+
+Assessing search engine quality requires standardized evaluation metrics across benchmark test collections. Key metrics include Precision (proportion of retrieved documents that are relevant), Recall (proportion of relevant documents that were retrieved), F1-Score (harmonic mean of precision and recall), Mean Average Precision (MAP), and Normalized Discounted Cumulative Gain (NDCG) for graded relevance rankings. Efficient indexing and accurate linguistic models are essential for maximizing both precision and recall in production search systems.

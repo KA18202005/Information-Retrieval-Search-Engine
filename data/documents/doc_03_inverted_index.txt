@@ -1,0 +1,6 @@
+Title: Inverted Index Architecture and Postings Lists
+Author: Justin Zobel
+Category: Indexing Data Structures
+Date: 2024-02-05
+
+The inverted index is the cornerstone data structure powering modern search engines. Unlike a forward index which maps documents to words, an inverted index maps each distinct vocabulary term to a postings list of document identifiers where the term appears, alongside exact positional offsets and term frequencies. Positional inverted indices allow ultra-fast evaluation of phrase queries and proximity search operators. Delta-encoding, variable-byte compression, and skip lists are widely used to optimize memory footprint and boolean intersection throughput.

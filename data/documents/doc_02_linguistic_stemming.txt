@@ -1,0 +1,6 @@
+Title: Linguistic Models and Porter Stemming
+Author: Martin Porter
+Category: Linguistic Models
+Date: 2024-01-22
+
+Linguistic modeling transforms raw lexical tokens into generalized morphological representations. Martin Porter introduced the Porter Stemmer algorithm in 1980, which applies five successive phases of suffix stripping rules to reduce inflected or derived words to a common base stem (such as connecting "retrieval", "retrieved", and "retrieves" to "retriev"). Lemmatization goes a step further by using vocabulary and morphological analysis of words to return the base dictionary form (lemma). These linguistic techniques reduce vocabulary dimensionality and combat vocabulary mismatch in query execution.

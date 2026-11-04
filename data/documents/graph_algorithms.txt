@@ -1,0 +1,6 @@
+Title: Graph Algorithms and Shortest Path Optimization
+Author: Larry Page
+Category: Algorithms
+Date: 2024-05-10
+
+Graph algorithms solve connectivity, topological sorting, and shortest path problems in complex networks. Dijkstra's algorithm uses a priority queue to find single-source shortest paths in graphs with non-negative edge weights. The A* search algorithm enhances Dijkstra with heuristic estimations to guide exploration. PageRank computes node authority in web graphs using random walk Markov chains, forming the basis for link-based document ranking in search engines.
