@@ -12,8 +12,6 @@
 
 Designed to demonstrate core concepts from classical Information Retrieval (Chapters 1–4 of the WSM syllabus), the application processes documents, performs linguistic normalization, constructs positional and permuterm inverted indices, parses complex Boolean AST expressions, executes tolerant wildcard searches, computes Levenshtein DP spelling corrections, calculates Vector Space Cosine Similarity, and presents dynamic keyword-in-context (KWIC) search results through a Google-inspired web interface.
 
-> [!NOTE]
-> Per syllabus and project requirements, post-compression storage techniques (Variable Byte, Elias Gamma, Delta coding) are intentionally excluded to focus on algorithmic correctness, indexing data structures, and ranking models.
 
 ---
 
